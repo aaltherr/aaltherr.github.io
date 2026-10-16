@@ -121,8 +121,9 @@ mathematics and computer engineering. Here are some of the recent courses I foll
 
 This course is offered in the 3rd year of the computer science bachelor at ETH Zürich
 and introduces lexical analysis, top-down and bottom-up parsing, abstract syntax trees,
-intermediate representations. I completed assignments in OCaml that transforms
-Oat programs via LLVM and x86 Assembly to byte code.
+intermediate representations, subtyping, data flow analysis. I completed assignments in OCaml that transforms
+[Oat programs](https://www.cs.princeton.edu/courses/archive/spring19/cos320/hw/oat2.pdf)
+ via LLVM and x86 Assembly to byte code.
 
 ### Computer Systems
 
