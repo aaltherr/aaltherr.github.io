@@ -52,9 +52,9 @@ of the order 10⁸.
 
 The code was written in the C language
 with extensive use of MPI, and ran on both CPU and GPU clusters
-by CSCS. It is integrated into the 
+at CSCS. It is integrated into the 
 [rcstar/openQxD-devel](https://gitlab.com/rcstar/openQxD-devel) code package
-and will soon be merge into the public repository [rcstar/openQxD](https://gitlab.com/rcstar/openQxD).
+and will soon be merged into the public repository [rcstar/openQxD](https://gitlab.com/rcstar/openQxD).
 
 ### Real-linear operators
 
@@ -62,15 +62,15 @@ The use of conjugation boundary conditions, needed for simulating quantum electr
 effects, changes the equations that govern the dynamics of physics from linear operators
 to real-linear operators of the form f(v) = Av + Bv*. In this project,
 we investigate the inversion of such maps with the goal
-to reduce memory and time requirements by a factor of 2.
+of reducing memory and time requirements by a factor of 2.
 
 It is written in modern C++
 and publicly available on [donion74/cstar-bc](https://gitlab.com/donion74/cstar-bc).
 
 ### Optimization on manifolds, semidefinite programming
 
-Quantum resources bear the potential for higher precision on measurements
-than their classical counterpart. In this project, we formulated the optimal
+Quantum resources bear the potential for higher precision in measurements
+than their classical counterparts. In this project, we formulated the optimal
 measurement strategy as an optimization problem over a space of positive
 semidefinite matrices and solved it using semidefinite programming.
 Due to the exponential scaling with respect to the number of resources,
@@ -82,7 +82,7 @@ system sizes.
 The first part of the project is written in Matlab and publicly available
 under [donion74/comb-estimation](https://gitlab.com/donion74/comb-estimation).
 The second part of the project is written in Python and uses TensorFlow to
-implement a gradient descent algorithm, it is available
+implement a gradient descent algorithm; it is available
 under [donion74/comb-efficient](https://gitlab.com/donion74/comb-efficient).
 
 
@@ -109,8 +109,8 @@ is greatly facilitated by our organization [OlyExams](https://oly-exams.org/).
 As part of this organization, I maintain the publicly available
 [exam_tools](https://gitlab.com/oly-exams/exam_tools),
 written in Python and with Django, 
-have instructed local organizing committees and deployed at events
-in Israel, Armenia, and UAE.
+and have instructed local organizing committees and deployed it at events
+in Israel, Armenia, and the UAE.
 
 
 # Coursework
@@ -122,14 +122,14 @@ mathematics and computer engineering. Here are some of the recent courses I foll
 
 This course is offered in the 3rd year of the computer science bachelor at ETH Zürich
 and introduces lexical analysis, top-down and bottom-up parsing, abstract syntax trees,
-intermediate representations, subtyping, data flow analysis. I completed assignments in OCaml that transforms
+intermediate representations, subtyping, and data flow analysis. I completed assignments in OCaml that transform
 [Oat programs](https://www.cs.princeton.edu/courses/archive/spring19/cos320/hw/oat2.pdf)
  via LLVM and x86 Assembly to byte code.
 
 ### Computer Systems
 
 This course is offered in the 3rd year of the computer science bachelor 
-at ETH Zürich. I followed the first half of the lecture, which introduces
+at ETH Zürich. I followed the first half of the course, which introduces
 scheduling, operating system structures, interprocess communication, memory
 management and file systems.
 
@@ -160,7 +160,7 @@ and introduces finite element methods to solve partial differential
 equations. It started by introducing the strong and weak form
 of partial differential equations and used finite element methods
 to solve the equations on a discretized space.
-Examples included elastic membrane models, wave equation and
+Examples included elastic membrane models, the wave equation and
 convection-diffusion problems such as heat conduction in a fluid.
 Assignments in C++ in the [LehrFEM++](https://github.com/craffael/lehrfempp)
 package were an integral part of the course.
