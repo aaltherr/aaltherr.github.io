@@ -6,8 +6,10 @@
 layout: default 
 ---
 
+<!--
 <i> Doctoral student in high-performance computational physics looking to build fast and
 robust CPU/GPU libraries. </i>
+-->
 
 I am a doctoral student in the High Performance Computational Physics group
 under the supervision of Prof. Dr. Marina Marinkovic, where I develop
@@ -51,9 +53,8 @@ of the order 10⁸.
 The code was written in the C language
 with extensive use of MPI, and ran on both CPU and GPU clusters
 by CSCS. It is integrated into the 
-[rcstar/openQxD-devel](https://gitlab.com/rcstar/openQxD-devel) code package;
-see [rcstar/openQxD](https://gitlab.com/rcstar/openQxD)
-for a public version of the repository.
+[rcstar/openQxD-devel](https://gitlab.com/rcstar/openQxD-devel) code package
+and will soon be merge into the public repository [rcstar/openQxD](https://gitlab.com/rcstar/openQxD).
 
 ### Real-linear operators
 
