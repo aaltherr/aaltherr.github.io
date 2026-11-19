@@ -52,9 +52,10 @@ of the order 10⁸.
 
 The code was written in the C language
 with extensive use of MPI, and ran on both CPU and GPU clusters
-at CSCS. It is integrated into the 
-[rcstar/openQxD-devel](https://gitlab.com/rcstar/openQxD-devel) code package
-and will soon be merged into the public repository [rcstar/openQxD](https://gitlab.com/rcstar/openQxD).
+at CSCS. It is available under 
+[openQxD](https://gitlab.com/donion74/openQxD) in the branch 15-disconnected-gpu
+and is scheduled to be merged into the collaboration repository
+[rcstar/openQxD](https://gitlab.com/rcstar/openQxD).
 
 ### Real-linear operators
 
